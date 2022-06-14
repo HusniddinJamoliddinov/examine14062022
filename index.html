@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Imtixon</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="header">
+        <h1 class="logo-title active">Pomodoro</h1>
+        <img src="./images/pomodoro-logo.png" alt="" class="logo" />
+      </div>
+      <ul class="head-list">
+        <li id="pomodoro" class="head-list-item active">Pomodoro</li>
+        <li id="short" class="head-list-item">Short Break</li>
+        <li id ="long" class="head-list-item">Long Break</li>
+      </ul>
+
+      <div class="hero">
+        <div class="time-zone">
+            <h1 class="time-display"><span class="min">25</span> : <span class="sec">00</span></h1>
+        </div>
+      </div>
+
+      <div class="btn-group">
+        <button class="start active">Play</button>
+        <button class="pause hide">Pause</button>
+        <button class="stop">Stop</button>
+      </div>
+    </div>
+
+    <script src="./index.js"></script>
+    <!-- <script src="./task.js"></script> -->
+  </body>
+</html>

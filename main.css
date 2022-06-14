@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e5e5e5;
+  min-height: max-content;
+  overflow: hidden;
+}
+
+.header {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+.logo-title {
+  font-size: 3.2rem;
+  font-family: "Lobster", sans-serif;
+  font-style: regular;
+  font-weight: 700;
+  color: #c44747;
+}
+.logo {
+  width: 33px;
+  height: 33px;
+}
+
+.head-list {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  row-gap: 2.5rem;
+  margin-bottom: 2.8rem;
+  list-style-type: none;
+}
+.head-list-item {
+  font-size: 1.6rem;
+  font-family: "Lobster", sans-serif;
+  font-style: regular;
+  font-weight: 700;
+  color: #c44747;
+  padding: 1rem 2.7rem;
+  border-radius: 2rem;
+}
+.head-list-item:hover{
+    border: 5px solid #c44747;
+}
+
+.btn-group {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  row-gap: 5rem;
+}
+
+.start {
+  font-family: "Lobster", sans-serif;
+  font-weight: 700;
+  color: #fff;
+  background-color: #c44747;
+  padding: 1rem 3.5rem;
+  border: none;
+  border-radius: 1rem;
+  margin-right: 5rem;
+  font-size: 3.2rem;
+  border: none;
+}
+
+.pause {
+  font-family: "Lobster", sans-serif;
+  font-weight: 700;
+  color: #fff;
+  background-color: #c44747;
+  padding: 1rem 3.5rem;
+  border: none;
+  border-radius: 1rem;
+  margin-right: 5rem;
+  font-size: 3.2rem;
+  border: none;
+}
+
+.stop {
+  font-family: "Lobster", sans-serif;
+  font-weight: 700;
+  color: #fff;
+  border: none;
+  padding: 1rem 3.5rem;
+  background-color: #c44747;
+  border-radius: 1rem;
+  font-size: 3.2rem;
+}
+
+
+.active {
+  background-color: #c44747;
+  color: #fff;
+  border-radius: 1rem;
+  padding: 1rem 3.5rem;
+}
+
+.hero {
+  width: 300px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #c44747;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+
+.time-zone {
+  z-index: 100;
+  width: 250px;
+  height: 250px;
+  background-color: #e5e5e5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3.2rem;
+}
+.time-display{
+    color:#c44747;
+}
+
+.hide {
+  display: none !important;
+}
